@@ -150,7 +150,7 @@ def gerar_link_download(pdf_content, filename):
     return href
 
 # Interface Streamlit
-st.title('Gerador de Orçamento')
+st.title('Gerador de Orçamento 🎸')
 
 # Dados do Prestador
 st.header('Dados do Prestador de Serviço')
