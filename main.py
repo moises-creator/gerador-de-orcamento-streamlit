@@ -223,4 +223,10 @@ if st.button('Gerar PDF'):
     st.success('PDF gerado com sucesso!')
     st.markdown(gerar_link_download(pdf_content, filename), unsafe_allow_html=True)
 
+
+# Rodapé
+st.markdown('<p style="text-align: center; color: #CCCCCC; margin-top: 100px; font-weight: bold;">Desenvolvido por Moisés Ximenes</p>', unsafe_allow_html=True)
+
+
+
 # Botão para enviar por email (seria necessário configurar uma função de envio por email)
